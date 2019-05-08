@@ -1,0 +1,19 @@
+[package]
+name = "redis-bigint"
+version = "0.1.0"
+authors = ["ahouts <ahouts4@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib"]
+
+[profile.release]
+lto = true
+
+[dependencies]
+num-traits = "0.2"
+num-bigint = "0.2"
+
+[dependencies.redismodule]
+git = "https://github.com/RedisLabsModules/redismodule-rs"
+branch = "master"
