@@ -69,10 +69,10 @@ Add the value of two bigints together, storing the result in the first bigint.
 
 #### BIGINT.ADDINT
 
-Add a value (in base `radix`) to a bigint. 
+Add a value (in base 10) to a bigint. 
 The value of `int` must fit in a 64 bit signed integer.
 
-`BIGINT.ADDINT <target> <int> [radix: 10]`
+`BIGINT.ADDINT <target> <int>`
 
 ```redis
 > BIGINT.SET a 1234
