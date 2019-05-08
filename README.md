@@ -37,7 +37,7 @@ a base `radix` integer.
 
 #### BIGINT.GET
 
-Get the value of a bigint. The return type will be returned in a base `radix` string.
+Get the value of a bigint. The return value is a base `radix` string.
 
 `BIGINT.GET <key> [radix: 10]`
 
